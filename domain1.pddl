@@ -4,7 +4,7 @@
 
 (:types
 
-    ambulancia localizacion enfermo - object
+    enfermo ambulancia localizacion - object
 )
 
 
