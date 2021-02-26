@@ -33,7 +33,7 @@
 )
 
 (:action conducir_llena
-    :parameters ( ?ambulancia - ambulancia ?localizacionOrigen ?localizacionDestino - localizacion ?enfermo -enfermo)
+    :parameters ( ?ambulancia - ambulancia ?localizacionOrigen ?localizacionDestino - localizacion ?enfermo - enfermo)
     :precondition (and
         (ubicacion_ambulancia ?ambulancia ?localizacionOrigen)
         (enlace ?localizacionOrigen ?localizacionDestino)
